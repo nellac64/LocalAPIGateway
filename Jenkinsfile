@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_NAME = "my-git-service"
+        APP_NAME = "local-api-gateway"
         VERSION = "1.9.2"
         IMAGE_TAG = "${APP_NAME}:${VERSION}"
     }
