@@ -7,7 +7,7 @@ export GO111MODULE=on
 
 SCRIPT_DIR="."
 PROJECT_DIR="${SCRIPT_DIR}/../"
-RES_FILE_NAME="local-api-gateway"
+RES_FILE_NAME="local-api-gateway-app"
 
 # build_app 编译
 build_app() {

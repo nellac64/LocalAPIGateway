@@ -8,5 +8,5 @@ RUN chmod +x ./build/build.sh && \
     ./build/build.sh
 
 FROM docker.1ms.run/library/busybox:1.36
-COPY --from=builder /app/local-api-gateway /app/local-api-gateway
-ENTRYPOINT ["/app/local-api-gateway"]
+COPY --from=builder /app/local-api-gateway-app /app/local-api-gateway-app
+ENTRYPOINT ["/app/local-api-gateway-app"]
