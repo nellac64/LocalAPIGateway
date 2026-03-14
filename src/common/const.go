@@ -1,7 +1,7 @@
 package common
 
 const (
-	ConfigFilePath = "/app/test-git-service/config/test-service.yml"
+	EnvConfigFileParam = "CONFIG_FILE"
 
 	LogDirKey  = "log-dir"
 	DataDirKey = "data-dir"

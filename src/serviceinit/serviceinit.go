@@ -29,7 +29,9 @@ func init() {
 
 // readAll 读取配置文件 获取配置
 func readAll() {
-	data, err := os.ReadFile(common.ConfigFilePath)
+	configFilePath := os.Getenv(common.EnvConfigFileParam)
+
+	data, err := os.ReadFile(configFilePath)
 	if err != nil {
 		panic(err)
 	}

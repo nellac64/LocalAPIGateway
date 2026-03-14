@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = "local-api-gateway"
-        VERSION = "1.9.2"
+        VERSION = "1.9.3"
         IMAGE_TAG = "${APP_NAME}:${VERSION}"
     }
 
